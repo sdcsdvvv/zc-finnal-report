@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+<image src="timg.jpg" style="width:100%"></image>
+
+<button style="width:90%;border:3px solid #ccc" bindtap="navToPre">轴承故障预测</button>
+</view>

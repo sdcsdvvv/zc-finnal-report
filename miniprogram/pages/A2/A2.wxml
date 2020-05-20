@@ -1,0 +1,86 @@
+<view class="titleContainer">
+  <text class="big-title">A1机组测试结果</text>
+  <view class="return" bindtap="returnTap">返回</view>
+</view>
+<view class="table">
+  <view class="tr">
+    <view class="th">test1</view>
+    <view class="td">
+    <text style="color:green；font-weight:bold"  wx:if='{{resultArray[0].predict == 0}}'>正常</text>
+    <text style="color:green；font-weight:bold"  wx:if='{{resultArray[0].predict == 1}}'>ball</text>
+    <text style="color:green；font-weight:bold"  wx:if='{{resultArray[0].predict == 2}}'>内圈故障</text>
+    <text style="color:green；font-weight:bold"  wx:if='{{resultArray[0].predict == 3}}'>外圈故障</text></view>
+  </view>
+  <view class="tr">
+    <view class="th">test2</view>
+    <view class="td">
+    <text style="color:green；font-weight:bold"  wx:if='{{resultArray[1].predict == 0}}'>正常</text>
+    <text style="color:green；font-weight:bold"  wx:if='{{resultArray[1].predict == 1}}'>ball</text>
+    <text style="color:green；font-weight:bold"  wx:if='{{resultArray[1].predict == 2}}'>内圈故障</text>
+    <text style="color:green；font-weight:bold"  wx:if='{{resultArray[1].predict == 3}}'>外圈故障</text></view>
+  </view>
+  <view class="tr">
+    <view class="th">test3</view>
+    <view class="td"> 
+    <text style="color:green；font-weight:bold" wx:if='{{resultArray[2].predict == 0}}'>正常</text>
+    <text style="color:green；font-weight:bold" wx:if='{{resultArray[2].predict == 1}}'>ball</text>
+    <text style="color:green；font-weight:bold" wx:if='{{resultArray[2].predict == 2}}'>内圈故障</text>
+    <text style="color:green；font-weight:bold" wx:if='{{resultArray[2].predict == 3}}'>外圈故障</text></view>
+  </view>
+  <view class="tr">
+    <view class="th">test4</view>
+    <view class="td">
+    <text style="color:green；font-weight:bold"  wx:if='{{resultArray[3].predict == 0}}'>正常</text>
+    <text style="color:green；font-weight:bold"  wx:if='{{resultArray[3].predict == 1}}'>ball</text>
+    <text style="color:green；font-weight:bold"  wx:if='{{resultArray[3].predict == 2}}'>内圈故障</text>
+    <text style="color:green；font-weight:bold"  wx:if='{{resultArray[3].predict == 3}}'>外圈故障</text></view>
+  </view>
+  <view class="tr">
+    <view class="th">test5</view>
+    <view class="td">
+    <text style="color:green；font-weight:bold"  wx:if='{{resultArray[4].predict == 0}}'>正常</text>
+    <text style="color:green；font-weight:bold"  wx:if='{{resultArray[4].predict == 1}}'>ball</text>
+    <text style="color:green；font-weight:bold"  wx:if='{{resultArray[4].predict == 2}}'>内圈故障</text>
+    <text style="color:green；font-weight:bold"  wx:if='{{resultArray[4].predict == 3}}'>外圈故障</text></view>
+  </view>
+   <view class="tr">
+    <view class="th">test6</view>
+    <view class="td">
+    <text style="color:green；font-weight:bold"  wx:if='{{resultArray[5].predict == 0}}'>正常</text>
+    <text style="color:green；font-weight:bold"  wx:if='{{resultArray[5].predict == 1}}'>ball</text>
+    <text style="color:green；font-weight:bold"  wx:if='{{resultArray[5].predict == 2}}'>内圈故障</text>
+    <text style="color:green；font-weight:bold"  wx:if='{{resultArray[5].predict == 3}}'>外圈故障</text></view>
+  </view>
+   <view class="tr">
+    <view class="th">test7</view>
+    <view class="td">
+    <text style="color:green；font-weight:bold"  wx:if='{{resultArray[6].predict == 0}}'>正常</text>
+    <text style="color:green；font-weight:bold"  wx:if='{{resultArray[6].predict == 1}}'>ball</text>
+    <text style="color:green；font-weight:bold"  wx:if='{{resultArray[6].predict == 2}}'>内圈故障</text>
+    <text style="color:green；font-weight:bold"  wx:if='{{resultArray[6].predict == 3}}'>外圈故障</text></view>
+  </view>
+   <view class="tr">
+    <view class="th">test8</view>
+    <view class="td">
+    <text style="color:green；font-weight:bold"  wx:if='{{resultArray[7].predict == 0}}'>正常</text>
+    <text style="color:green；font-weight:bold"  wx:if='{{resultArray[7].predict == 1}}'>ball</text>
+    <text style="color:green；font-weight:bold"  wx:if='{{resultArray[7].predict == 2}}'>内圈故障</text>
+    <text style="color:green；font-weight:bold"  wx:if='{{resultArray[7].predict == 3}}'>外圈故障</text></view>
+  </view>
+   <view class="tr">
+    <view class="th">test9</view>
+    <view class="td">
+    <text style="color:green；font-weight:bold" wx:if='{{resultArray[8].predict == 0}}'>正常</text>
+    <text style="color:green；font-weight:bold" wx:if='{{resultArray[8].predict == 1}}'>ball</text>
+    <text style="color:green；font-weight:bold" wx:if='{{resultArray[8].predict == 2}}'>内圈故障</text>
+    <text style="color:green；font-weight:bold" wx:if='{{resultArray[8].predict == 3}}'>外圈故障</text></view>
+  </view>
+   <view class="tr">
+    <view class="th">test10</view>
+    <view class="td">
+    <text style="color:green；font-weight:bold"  wx:if='{{resultArray[9].predict == 0}}'>正常</text>
+    <text style="color:green；font-weight:bold"  wx:if='{{resultArray[9].predict == 1}}'>ball</text>
+    <text style="color:green；font-weight:bold"  wx:if='{{resultArray[9].predict == 2}}'>内圈故障</text>
+    <text style="color:green；font-weight:bold"  wx:if='{{resultArray[9].predict == 3}}'>外圈故障</text></view>
+  </view>
+  </view>

@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/A1/A1",
+    "pages/A2/A2",
+    "pages/A3/A3",
+    "pages/A4/A4",
+    "pages/A5/A5",
+    "pages/A6/A6",
+    "pages/A7/A7",
+    "pages/A8/A8",
+    "pages/A9/A9",
+    "pages/A10/A10",
+    "pages/A11/A11",
+    "pages/A12/A12",
+    "pages/A13/A13",
+    "pages/A14/A14"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "轴承故障检测",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
